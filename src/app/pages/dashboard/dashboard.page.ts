@@ -17,7 +17,13 @@ export class DashboardPage implements OnInit {
       title: 'List',
       url: 'list',
       icon: 'list'
+    },
+    {
+      title: 'Prepuestos',
+      url: 'presupuestos',
+      icon: 'list'
     }
+
   ];
 
   constructor() { }
