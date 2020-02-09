@@ -10,17 +10,17 @@ export class DashboardPage implements OnInit {
   public appPages = [
     {
       title: 'Home',
-      url: 'home',
+      url: '/dashboard/home',
       icon: 'home'
     },
     {
       title: 'List',
-      url: 'list',
+      url: '/dashboard/list',
       icon: 'list'
     },
     {
       title: 'Prepuestos',
-      url: 'presupuestos',
+      url: '/dashboard/presupuestos',
       icon: 'list'
     }
 
@@ -29,6 +29,6 @@ export class DashboardPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  
   }
-
 }
